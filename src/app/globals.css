@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,24 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+*, body{
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+.home{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page{
+  width: min(1440px, 100%);
+  margin-inline: auto;
+  background-image: url(../assets/home/mobile/image-header.jpg);
+  background-color: #0E0E0E;
 }
